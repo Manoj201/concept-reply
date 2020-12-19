@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/concept-reply/static/js/main.3678673c.chunk.js",
+    "main.js.map": "/concept-reply/static/js/main.3678673c.chunk.js.map",
+    "runtime-main.js": "/concept-reply/static/js/runtime-main.51a1f54a.js",
+    "runtime-main.js.map": "/concept-reply/static/js/runtime-main.51a1f54a.js.map",
+    "static/js/2.68e4818a.chunk.js": "/concept-reply/static/js/2.68e4818a.chunk.js",
+    "static/js/2.68e4818a.chunk.js.map": "/concept-reply/static/js/2.68e4818a.chunk.js.map",
+    "static/js/3.7069b3ee.chunk.js": "/concept-reply/static/js/3.7069b3ee.chunk.js",
+    "static/js/3.7069b3ee.chunk.js.map": "/concept-reply/static/js/3.7069b3ee.chunk.js.map",
+    "index.html": "/concept-reply/index.html",
+    "static/js/2.68e4818a.chunk.js.LICENSE.txt": "/concept-reply/static/js/2.68e4818a.chunk.js.LICENSE.txt",
+    "static/media/concept-reply.b64a112d.png": "/concept-reply/static/media/concept-reply.b64a112d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51a1f54a.js",
+    "static/js/2.68e4818a.chunk.js",
+    "static/js/main.3678673c.chunk.js"
+  ]
+}
