@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
 
 const RoomStaticsCard = (props) => {
   const classes = useStyles(props);
-  const [status, setStatus] = React.useState(true);
+  const [status, setStatus] = React.useState(props.status);
 
   const handleChange = (event) => {
     setStatus(event.target.checked);

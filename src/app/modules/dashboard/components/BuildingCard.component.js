@@ -31,18 +31,13 @@ const BuildingCard = (props) => {
       </div>
       <div className={classes.content}>
         <Grid container spacing={2}>
-          <Grid item lg={3} md={4} sm={6} xs={12}>
-            <RoomStaticsCard room="001" backgroundColor="#a8edb5" value="50" />
-          </Grid>
-          <Grid item lg={3} md={4} sm={6} xs={12}>
-            <RoomStaticsCard room="002" backgroundColor="#edc1a8" value="90" />
-          </Grid>
-          <Grid item lg={3} md={4} sm={6} xs={12}>
-            <RoomStaticsCard room="003" backgroundColor="#a8edd1" value="30" />
-          </Grid>
-          <Grid item lg={3} md={4} sm={6} xs={12}>
-            <RoomStaticsCard room="004" backgroundColor="#a8bded" value="10" />
-          </Grid>
+          {props.rooms && props.rooms.map(room => {
+            return (
+              <Grid item lg={3} md={4} sm={6} xs={12}>
+                <RoomStaticsCard room={room.name} backgroundColor={room.widgetColor} value={room.value} status={room.status} />
+              </Grid>
+            );
+          })}
 
         </Grid>
       </div>
